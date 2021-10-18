@@ -5,4 +5,4 @@ Link: [Flood Areas Application](https://share.streamlit.io/ofirmazor/flood/main/
 
 Inside the app you can change the model radius and kernel type parameters. A new updated map will be displayed.
 
-This repo is a geemap-streamlit example, you can find more examples here : https://github.com/giswqs/geemap-streamlit
+This repo is a [geemap](https://geemap.org/)-[streamlit](https://streamlit.io/) example, you can find more examples here : https://github.com/giswqs/geemap-streamlit
