@@ -1,5 +1,5 @@
 import ee
-ee.Initialize("1//09XHQXq25HVM3CgYIARAAGAkSNwF-L9IrL0n472XEgy2_wToC9gnBTA2-iJd06l6cigUT7_ETNnf-LyfcCcwT-cQG_gGpPMBnXcA")
+ee.Initialize()
 import geemap
 import pandas as pd
 import streamlit as st
