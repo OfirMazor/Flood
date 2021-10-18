@@ -1,7 +1,6 @@
 import ee
-ee.Initialize()
 import geemap
-import pandas as pd
+geemap.ee_initialize()
 import streamlit as st
 
 headContainer = st.container()
