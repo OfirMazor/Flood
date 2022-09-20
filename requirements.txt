@@ -1,5 +1,5 @@
 geopandas
 streamlit
 streamlit-folium
-geemap
-##git+git://github.com/giswqs/geemap
+##geemap
+git+git://github.com/giswqs/geemap
