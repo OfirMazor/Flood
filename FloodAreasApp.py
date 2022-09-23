@@ -1,12 +1,5 @@
 import ee
-import geemap
-
-try:
-    ee.Initialize()
-except Exception as e:
-    ee.Authenticate()
-    ee.Initialize()
-
+ee.Initialize()
 import geemap
 import pandas as pd
 import streamlit as st
