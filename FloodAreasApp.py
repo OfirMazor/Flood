@@ -1,6 +1,14 @@
 import ee
 import geemap
-geemap.ee_initialize()
+
+try:
+    ee.Initialize()
+except Exception as e:
+    ee.Authenticate()
+    ee.Initialize()
+
+import geemap
+import pandas as pd
 import streamlit as st
 
 headContainer = st.container()
